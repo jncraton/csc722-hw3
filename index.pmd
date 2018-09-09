@@ -227,3 +227,30 @@ Problem 4
 
 Let’s assume a = (1, -2, 3, 5, 9, 1), b = (0, 1, 2, -1, 3, 2), and c = a – 2b, find ‖c‖₀,‖c‖₁,‖c‖₂,‖c‖∞
 
+First, let's find c.
+
+```python
+a = [1, -2, 3, 5, 9, 1]
+b = [0, 1, 2, -1, 3, 2]
+
+c = [i - 2*j for i,j in zip(a,b)]
+c
+```
+
+We can now use the functions that we built earlier to find the requested norms.
+
+```python
+norm0(c)
+```
+
+```python
+norm1(c)
+```
+
+```python
+norm2(c)
+```
+
+```python
+norm_inf(c)
+```
