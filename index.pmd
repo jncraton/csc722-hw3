@@ -188,33 +188,39 @@ Proof the triangle inequality
 
 Proof ideas from: https://math.stackexchange.com/questions/307348/proof-of-triangle-inequality
 
-It is trivial to show that:
+    1. |x| + |y| ≥ |x + y|
 
-    ∀x∈R |x| ≥ x
+We see that both sides of our inequality are positive, so we can sqaure them as:
 
-By cases:
+    2. (|x| + |y|)² ≥ (|x + y|)²
 
-    0 ≥ 0 when x = 0
-    x ≥ x when x > 0
-    x ≥ -x when x < 0
+Because (|x|)² = x² for x∈ℝ, we can simplify the right hand side:
 
-Therefore, the following is always true:
-    
-    a²+b²+2|a||b| ≥ a²+b²+2ab
+    3. (|x| + |y|)² ≥ (x + y)²
 
-Because ∀x∈R x²=|x|² by cases:
+We can then factor to:
 
-    0 = 0 when x = 0
-    1*1 = 1*1 when x > 0
-    -1*-1 = 1*1 when x < 0
+    4. (|x|)² + (|y|)² + 2|x||y| ≥ x² + y² + 2xy
+    5. x² + y² + 2|x||y| ≥ x² + y² + 2xy
 
-We can factor to:
+We can then cancel the sqaure terms:
 
-    (|a|+|b|)²≥|a+b|² 
+    6. 2|x||y| ≥ 2xy
 
-Because both sides of our inequality are positive, we can take the square root:
+And divide by 2:
 
-    |a|+|b|≥|a+b|
+    7. |x||y| ≥ xy
+
+It is now trivial to see that this is true by cases:
+
+    0 ≥ 0 when x=0 or y=0
+    + ≥ - when x<0 or y<0
+    + ≥ + when x<0 and y<0
+    + ≥ + when x>0 and y>0
+
+There for, we have shown that:
+
+    |x| + |y| ≥ |x + y| 
 
 Problem 4
 =========
