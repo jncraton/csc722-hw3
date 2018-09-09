@@ -218,7 +218,7 @@ It is now trivial to see that this is true by cases:
     + ≥ + when x<0 and y<0
     + ≥ + when x>0 and y>0
 
-There for, we have shown that:
+Therefore, we have shown that:
 
     |x| + |y| ≥ |x + y| 
 
