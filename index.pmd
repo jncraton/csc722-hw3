@@ -186,6 +186,36 @@ Proof the triangle inequality
 
     |x| + |y| ≥ |x + y| 
 
+Proof ideas from: https://math.stackexchange.com/questions/307348/proof-of-triangle-inequality
+
+It is trivial to show that:
+
+    ∀x∈R |x| ≥ x
+
+By cases:
+
+    0 ≥ 0 when x = 0
+    x ≥ x when x > 0
+    x ≥ -x when x < 0
+
+Therefore, the following is always true:
+    
+    a²+b²+2|a||b| ≥ a²+b²+2ab
+
+Because ∀x∈R x²=|x|² by cases:
+
+    0 = 0 when x = 0
+    1*1 = 1*1 when x > 0
+    -1*-1 = 1*1 when x < 0
+
+We can factor to:
+
+    (|a|+|b|)²≥|a+b|² 
+
+Because both sides of our inequality are positive, we can take the square root:
+
+    |a|+|b|≥|a+b|
+
 Problem 4
 =========
 
