@@ -156,6 +156,29 @@ def euclidean_distance(a, b):
 euclidean_distance(a, b)
 ```
 
+Manhattan distance
+------------------
+
+```python
+from scipy.spatial.distance import cityblock
+
+def manhattan_distance(a, b):
+  """
+  Return Manhattan distance between 2 vectors
+
+  >>> manhattan_distance([3,4],[0,0])
+  7
+
+  Test against scipy implementation:
+  >>> manhattan_distance(a,b) == cityblock(a,b)
+  True
+  """
+  
+  return sum([ abs(i-j) for i,j in zip(a,b) ])
+
+manhattan_distance(a, b)
+```
+
 Problem 3
 =========
 
