@@ -181,7 +181,7 @@ Proof the triangle inequality
 
     |x| + |y| ≥ |x + y| 
 
-Some proof ideas are borrowed from [Math.SE](https://math.stackexchange.com/questions/307348/proof-of-triangle-inequality).
+Some proof ideas are borrowed lecture and from [Math.SE](https://math.stackexchange.com/questions/307348/proof-of-triangle-inequality).
 
     1. |x| + |y| ≥ |x + y|
 
