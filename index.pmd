@@ -5,15 +5,9 @@
 Problem 1
 =========
 
-Find norm 0, norm 1, norm 2, norm 3, and norm infinity of vectors 
-a = (1, -2, 3, 5, 9, 1) and b = (0, 1, 2, -1, 3, 2) 
-
-Initialization
---------------
+Find norm 0, norm 1, norm 2, norm 3, and norm infinity of vectors:
 
 ```python
-from numpy.linalg import norm
-
 a = [1, -2, 3, 5, 9, 1]
 b = [0, 1, 2, -1, 3, 2]
 ```
@@ -22,6 +16,8 @@ Norm 0
 ------
 
 ```python
+from numpy.linalg import norm
+
 def norm0(v):
   """
   Returns the norm 0 of a vector
