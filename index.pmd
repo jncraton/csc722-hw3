@@ -186,11 +186,11 @@ Proof the triangle inequality
 
     |x| + |y| ≥ |x + y| 
 
-Proof ideas from: https://math.stackexchange.com/questions/307348/proof-of-triangle-inequality
+Some proof ideas are borrowed from [Math.SE](https://math.stackexchange.com/questions/307348/proof-of-triangle-inequality).
 
     1. |x| + |y| ≥ |x + y|
 
-We see that both sides of our inequality are positive, so we can sqaure them as:
+We see that both sides of our inequality are positive real numbers, so we can sqaure them simply as:
 
     2. (|x| + |y|)² ≥ (|x + y|)²
 
@@ -214,7 +214,7 @@ And divide by 2:
 It is now trivial to see that this is true by cases:
 
     0 ≥ 0 when x=0 or y=0
-    + ≥ - when x<0 or y<0
+    + ≥ - when x<0 xor y<0
     + ≥ + when x<0 and y<0
     + ≥ + when x>0 and y>0
 
